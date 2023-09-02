@@ -1,0 +1,250 @@
+
+/* nav bar css */
+
+*{
+    scroll-behavior: smooth;
+}
+nav{
+    position:sticky;
+    top:0px;
+    z-index: 100;
+}
+.location>h5{
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+
+.location>p{
+  margin: 0px;
+  font-size: 13px;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  
+}
+
+.vertical-line{
+    height: 55px;
+    border-left: 1px solid grey;
+}
+
+.search-icon{
+    width: 45%;
+    padding: 6px 12px;
+    height: 45px;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 12px;
+    background: rgb(248, 248, 248);
+    color: rgb(130, 130, 130);
+    box-sizing: border-box;
+}
+
+.search-icon>input{
+    background-color: transparent;
+    border: none;
+}
+
+::placeholder{
+    font-size: 14px;
+    color:rgb(153, 153, 153);
+}
+
+.mycart{
+    background-color:#0d831e !important;
+    font-size: 14px !important;
+}
+
+/* hero section css  */
+  .hero>img{
+    width: 85%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+/* scroll bar css */
+
+.scollcont{
+    margin:auto;
+    width:85%;
+    overflow-x:scroll;
+}
+
+.scolldiv{
+    white-space:nowrap;
+}
+
+.scolldiv>img{
+    padding-inline:10px ;
+}
+
+::-webkit-scrollbar{
+    display: none;
+
+}
+
+
+/* another section css  */
+.mycatag{
+    width:85%;
+    margin-top: 15px;
+}
+  
+
+/* next section css */
+
+
+
+.my-card{
+     width:179px;
+     margin-inline: 10px;
+}
+
+.my-card-time{
+    font-weight: 700;
+    font-size: 9px;
+    color: rgb(54, 54, 54);
+    border-radius: 4px;
+    width: fit-content;
+    padding: 0 4px;
+}
+
+.my-heading{
+    overflow: hidden;
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 13px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: 18px;
+    width: 100%;
+    height: 36px;
+    margin-bottom: 6px;
+}
+
+
+.my-weight{
+    color: rgb(54, 54, 54);
+    font-size: 15px;
+
+}
+.my-last{
+    margin-top: 20px;
+   
+}
+.my-rupess{
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.mycatag2{
+    width: 85%;
+    margin: auto;
+    margin-bottom:20px ;
+}
+
+.my-list{
+    white-space:nowrap;
+}
+.mycatag3{
+    width: 100%;
+    overflow-x:scroll;
+}
+
+
+.eajROp {
+    color: rgb(208, 56, 56);
+    font-weight: 800;
+    font-size: 9px;
+    text-align: center;
+    z-index: 20;
+    position: absolute;
+ } 
+
+/* footeer css */
+ .main-footer{
+    width: 85%;
+    margin: auto;
+ }
+
+
+ .footer-row1{
+    font-size: 14px;
+    rgb(157,157,157);
+    font-family: OKRA-REGULAR;
+    line-height: 18px;
+ }
+
+ .my-1{
+    white-space:pre;
+    font-size: 12px;
+ }
+
+ 
+.icon {
+    margin-inline: 15px;
+    font-size:35px;
+    }
+
+    .aaa{
+        margin-right: 110px;
+    }
+
+   a{
+        font-family: Okra;
+        font-weight: 600;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        margin-left:15px;
+    }
+
+    td{
+        color:#666666;
+        cursor: pointer;
+        font-size: 14px;
+        padding: 3px 10px;
+    }
+
+   .table-1{
+     flex:2;
+   }
+
+   .table-2{
+    flex:3;
+  }
+
+  .main-footer{
+    margin-top:40px;
+  }
+
+table{
+     width: 100%;
+     margin-bottom:40px;
+  }
+
+
+
+  @media screen and (max-width:768px){
+    nav,.footer-row1,.footer-row2{
+        flex-direction: column !important;
+        text-align: center;
+    }
+    .vertical-line,.hero>img{
+        display: none;
+    }
+    .nav-btn,.my-1,.search-icon,.serach-bar{
+        width: 90% ;
+    }
+    .table-1>h3,.table-2>h3,td{
+        text-align: center;
+    }
+    .bbb{
+        margin-left: 100px;
+    }
+    .scollcont{
+        margin-top: 100px;
+    }
+
+  }
